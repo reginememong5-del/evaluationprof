@@ -1,2 +1,2 @@
 [start]
-cmd = "php artisan migrate --force && vendor/bin/heroku-php-apache2 public/"
+cmd = "php artisan migrate:fresh --seed --force && vendor/bin/heroku-php-apache2 public/"
